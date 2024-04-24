@@ -1,0 +1,30 @@
+.cont {
+    max-width: 1180px;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenth1 {
+    font-size: 96px;
+    white-space: nowrap;
+}
+
+.cont {
+    min-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+
+  @media (max-width: 475px) {
+    .cont {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

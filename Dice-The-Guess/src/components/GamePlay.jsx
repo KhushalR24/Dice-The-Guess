@@ -5,6 +5,7 @@ import RoleDice from "./RoleDice";
 import { useState } from "react";
 import { Button, OutlineButton } from "../styled/Button";
 import Rules from "./Rules";
+import './style/GamePlay.css'
 
 const GamePlay = () => {
   const [score, setScore] = useState(0);
@@ -40,7 +41,7 @@ const GamePlay = () => {
   };
 
   return (
-    <MainContainer>
+    <div className="MainContainer">
       <div className="top_section">
         <TotalScore score={score} />
         <NumberSelector
@@ -59,7 +60,7 @@ const GamePlay = () => {
       </div>
 
       {showRules && <Rules />}
-    </MainContainer>
+    </div>
   );
 };
 

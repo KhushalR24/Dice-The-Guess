@@ -1,0 +1,15 @@
+.MainContainer{
+    padding-top: 70px;
+}
+
+@media (max-width: 475px) {
+    .MainContainer {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .top_section {
+        display: flex;
+        justify-content: center;
+      }
+  }
